@@ -10,7 +10,7 @@ class List
             Console.WriteLine("List is empty");
             return -1;
         }
-        int max = 0;
+        int max = Int32.MinValue;
         foreach (int element in myList)
         {
             if (max < element)
