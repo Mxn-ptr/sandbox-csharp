@@ -17,7 +17,7 @@ class List
         foreach (int integer in list)
         {
             Console.Write(integer);
-            if (integer != list.Capacity - 1 && list.Capacity > 1)
+            if (integer != list.Count - 1 && list.Count > 1)
                 Console.Write(" ");
         }
         Console.WriteLine();
